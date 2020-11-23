@@ -1,0 +1,22 @@
+@media screen and (max-width: 768px) {
+  .header__nav-el {
+    border-bottom: 1px solid rgba(255, 255, 255, .3);
+    height: 40px;
+    line-height: 40px;
+    font-size: 14px;
+  }
+
+  .header__nav-el:hover {
+    background-color: rgba(255, 255, 255, .3);
+  }
+}
+
+.header__nav-el a {
+  text-decoration: none;
+  color: white;
+}
+
+.header__nav-el:hover {
+  opacity: 0.6;
+  transition: 0.3s;
+}

@@ -1,0 +1,25 @@
+@import url(../vendor/normalize.css);
+
+@import url(../blocks/page/page.css);
+@import url(../blocks/body/body.css);
+
+@import url(../blocks/header/header.css);
+@import url(../blocks/header/__main-btn/header__main-btn.css);
+@import url(../blocks/header/__nav-el/header__nav-el.css);
+@import url(../blocks/header/__nav-list/header__nav-list.css);
+@import url(../blocks/header/__nav-list/_active/header__nav-list_active.css);
+@import url(../blocks/header/__nav/header__nav.css);
+@import url(../blocks/header/_active/header_active.css);
+@import url(../blocks/header/__nav-icon/header__nav-icon.css);
+
+@import url(../blocks/main/main.css);
+@import url(../blocks/video/video.css);
+@import url(../blocks/video/__ask-btns/video__ask-btns.css);
+@import url(../blocks/video/__question/video__question.css);
+@import url(../blocks/video/__ask-btn/video__ask-btn.css);
+@import url(../blocks/video/__iframe/video__iframe.css);
+
+@import url(../blocks/video-to-see/video-to-see.css);
+@import url(../blocks/video-to-see/__title/video-to-see__title.css);
+@import url(../blocks/video-to-see/__iframes/video-to-see__iframes.css);
+@import url(../blocks/video-to-see/__iframe/video-to-see__iframe.css);

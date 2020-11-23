@@ -1,0 +1,23 @@
+.video-to-see__iframe {
+  border: none;
+  width: 100%;
+}
+
+@media screen and (max-width: 768px) {
+  .video-to-see__iframe {
+    height: 200px;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video-to-see__iframe {
+    height: 220px;
+
+  }
+}
+
+@media screen and (min-width: 1024px) {
+  .video-to-see__iframe {
+    height: 160px;
+  }
+}

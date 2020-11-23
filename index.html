@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8">
+    <title>Test</title>
+    <!--link rel="shortcut icon" href="vector.png" type="image/png">-->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Test" />
+    <meta name="keywords" content="html, css, js" />
+    <meta name="author" content="Анастасия Гааг" />
+    <link rel="stylesheet" href="./pages/index.css">
+  </head>
+<body class="body">
+  <div class="page">
+    <header class="header">
+      <nav class="header__nav">
+        <div class="header__nav-icon"></div>
+        <ul class="header__nav-list" aria-labelledby="menu" aria-label="submenu">
+          <li class="header__nav-el"><a href="#">Главная</a></li>
+          <li class="header__nav-el"><a href="#">Личный кабинет</a></li>
+          <li class="header__nav-el"><a href="#">Помощь</a></li>
+          <li class="header__nav-el"><a href="#">Выход</a></li>
+        </ul>
+      </nav>
+    </header>
+    <div class="main">
+      <section class="video" id="video">
+        <iframe class="video__iframe" src="https://www.youtube.com/embed/bUMFZM5WBrI?list=LL" allowfullscreen></iframe>
+        <div class="video__ask-btns">
+          <h1 class="video__question">Что вы видите на видео?</h1>
+          <button type="button" aria-pressed="true" class="video__ask-btn">Значение 1</button>
+          <button type="button" aria-pressed="true" class="video__ask-btn">Значение 2</button>
+          <button type="button" aria-pressed="true" class="video__ask-btn">Значение 3</button>
+          <button type="button" aria-pressed="true" class="video__ask-btn">Ничего из перечисленного</button>
+        </div>
+      </section>
+      <section class="video-to-see"></section>
+      <h2 class="video-to-see__title">Непросмотренные</h2>
+      <div class="video-to-see__iframes">
+        <iframe class="video-to-see__iframe" src="https://www.youtube.com/embed/kHSeIK6tmfg?list=LL" allowfullscreen></iframe>
+        <iframe class="video-to-see__iframe" src="https://www.youtube.com/embed/u0GPQpAbTyw" allowfullscreen></iframe>
+        <iframe class="video-to-see__iframe" src="https://www.youtube.com/embed/yiC94SQkk-8" allowfullscreen></iframe>
+        <iframe class="video-to-see__iframe" src="https://www.youtube.com/embed/k3qbvtRYUMY" allowfullscreen></iframe>
+        <iframe class="video-to-see__iframe" src="https://www.youtube.com/embed/hY7m5jjJ9mM" allowfullscreen></iframe>
+        <iframe class="video-to-see__iframe" src="https://www.youtube.com/embed/0dMMWulZgC4" allowfullscreen></iframe>
+      </div>
+    </div>
+  </div>
+  <script src="./pages/index.js"></script>
+</body>
+</html>

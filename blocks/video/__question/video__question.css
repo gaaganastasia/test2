@@ -1,0 +1,19 @@
+.video__question {
+  color: black;
+  margin: 0 0 20px;
+}
+
+@media screen and (max-width: 768px) {
+  .video__question {
+    font-size: 16px;
+    margin: 10px 0 10px;
+    text-align: center;
+  }
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px) {
+  .video__question {
+    font-size: 18px;
+    margin: 0 0 10px;
+  }
+}
